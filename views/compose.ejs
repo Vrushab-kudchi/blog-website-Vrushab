@@ -1,0 +1,33 @@
+<%- include("partials/header"); -%>
+
+    <div class="container">
+        <div class="row">
+            <h1>Compose</h1>
+        </div>
+    </div>
+    <form action="/composedata" method="post">
+        <div class="container">
+            <div class="row">
+                <label for="title">Title</label>
+
+
+
+
+
+                <input type="text" name="title" class="form-control" aria-label="Large"
+                    aria-describedby="inputGroup-sizing-sm">
+
+
+
+
+                <label for="titledisc">Description</label>
+                <textarea class="form-control" aria-label="With textarea" name="titledisc"></textarea>
+
+            </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary btn-lg .mt-3">Publish</button>
+    </form>
+
+    <%- include("partials/footer"); -%>
