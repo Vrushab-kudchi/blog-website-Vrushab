@@ -1,0 +1,12 @@
+This is My 5th web applicatiomn which is a blog website
+to compose /compose in url
+after learning how to use EJS i tried to design this website
+i enjoyed making this site and it was easy after learning how to use javascript in html
+
+tech used
+html
+nodejs
+css
+bootstrap
+express
+lodash
