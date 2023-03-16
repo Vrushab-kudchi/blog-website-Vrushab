@@ -6,7 +6,7 @@
     </p>
 
 
-    <% postsData.forEach(function(element) { %>
+    <% blogdata.forEach(function(element) { %>
         <h1>
             <%=element.title %>
         </h1>
@@ -14,6 +14,9 @@
             <%=element.content.substring(0,140) + "..." %>
 
                 <a href="/post/<%= element.title %> ">read more</a>
+                <form action="/delete" method="post">
+                    <button class="btn btn-danger" name="id" type="submit" value="<%= element.id %>">Delete</button>
+                </form>
         </p>
 
         <% }); %>
